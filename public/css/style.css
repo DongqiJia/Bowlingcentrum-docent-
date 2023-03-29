@@ -1,0 +1,14 @@
+body{
+    font-family: Verdana;
+    
+}
+
+.topicError {
+    font-size: 0.8em;
+    color: red;
+}
+.opmerkingError {
+    font-size: 0.8em;
+    color: red;
+}
+
