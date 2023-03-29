@@ -4,12 +4,20 @@
 
 
 <div class="container col-8">
-    
+    <form action="" method="Post">
+        <input type="date" name="Datum" id="Datum">
+        <input type="submit" value="Toon Reserveringen">
+    </form> <br>
     <div class="row">
         <table border='1'>
             <thead>
                 <th>Naam</th>
-                <th>Persooninformatie</th>
+                <th>Datum</th>
+                <th>AantalUren</th>
+                <th>BeginTijd</th>
+                <th>EindTijd</th>
+                <th>AantalVolwassen</th>
+                <th>AantalKinderen</th>
             </thead>
 
             <tbody>
@@ -18,7 +26,7 @@
             </tbody>
         </table>
     </div>
-    <h4><a href="<?= URLROOT . '/index' ?>">Terug</a></h4>
+    <h4><a href="<?= URLROOT . '/userstory/index' ?>">Terug</a></h4>
 </div>
 
 
