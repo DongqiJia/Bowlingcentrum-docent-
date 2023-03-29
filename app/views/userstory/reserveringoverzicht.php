@@ -4,7 +4,7 @@
 
 
 <div class="container col-8">
-    <form action="" method="Post">
+    <form action="<?= URLROOT; ?>/Userstory/reserveringoverzicht/{$PersoonId}" method="Post">
         <input type="date" name="Datum" id="Datum">
         <input type="submit" value="Toon Reserveringen">
     </form> <br>
